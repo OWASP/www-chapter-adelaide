@@ -2,23 +2,25 @@
 
 layout: col-sidebar
 title: OWASP Adelaide
-tags: owaspad
+tags: adelaide
 region: Oceania
+level: 0
 country: Australia
+meetup-group: OWASP-Adelaide-Meetup-Group
 
 ---
 
 ## OWASP Adelaide
 
-Welcome to the OWASP Adelaide Chapter home page.
-
-The OWASP Adelaide Chapter has been active since 2020. We organise local Meetups and training events throughout the year.
+Welcome to the OWASP Adelaide Chapter home page. The OWASP Adelaide Chapter has been active since 2020. We organise local Meetups and training events throughout the year.
 
 Our chapter leader is [Aditya Pujara](mailto:aditya.pujara@owasp.org).
 
 ## Upcoming Events
 
 We will post all of our upcoming events here.
+
+{% include chapter_events.html group=page.meetup-group %}
 
 ### Social Links
 
